@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscreva-se</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="status">
+        <div class="error" id="error">
+          O e-mail deve conter uma estrutura semelhante ao ex: nome@dominio.com
+        </div>
+
+        <div class="success" id="success">
+          Email cadastrado com sucesso! Em breve você receberá nossas novidades
+        </div>
+      </section>
+
+      <section class="content">
+        <h1>Inscreva-se</h1>
+        <p>Fique por dentro das novidades</p>
+
+        <div class="inputGroup">
+          <input
+            type="email"
+            id="email"
+            placeholder="Informe seu melhor email"
+            required
+          />
+          <button id="button">Assinar</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
